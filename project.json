@@ -3,6 +3,7 @@
   "description": "A process to check unsubmitted timesheets in zoho a day before current date",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.8.4-preview]",
     "UiPath.System.Activities": "[20.4.0]",
     "UiPath.UIAutomation.Activities": "[20.4.1-preview]"
