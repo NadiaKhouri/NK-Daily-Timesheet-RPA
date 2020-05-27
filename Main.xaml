@@ -65,6 +65,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -331,7 +332,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.Condition>[SystemException IsNot Nothing]</Transition.Condition>
                   <Transition.To>
-                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Read configuration file and initialize Zoho application used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="253.6,105.6" sap2010:WorkflowViewState.IdRef="State_2">
+                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Read configuration file and initialize Zoho application used in the process." DisplayName="Initialization" sap:VirtualizedContainerService.HintSize="833.6,2668" sap2010:WorkflowViewState.IdRef="State_2">
                       <State.Entry>
                         <TryCatch DisplayName="Try initializing settings and applications" sap:VirtualizedContainerService.HintSize="788.8,2248" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
@@ -445,9 +446,15 @@
                               </If>
                               <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Open browser then navigate to Zoho &amp; login " DisplayName="Navigate to Zoho workflow" sap:VirtualizedContainerService.HintSize="710.4,119.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Framework\InitAllApplications.xaml">
                                 <ui:InvokeWorkflowFile.Arguments>
-                                  <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[Config]</InArgument>
-                                  <InArgument x:TypeArguments="ss:SecureString" x:Key="secAIpass">[secAIpass]</InArgument>
-                                  <InArgument x:TypeArguments="x:String" x:Key="strAIuser">[strAIuser]</InArgument>
+                                  <InArgument x:TypeArguments="ss:SecureString" x:Key="secAIpass">
+                                    <mva:VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="secAIpass" />
+                                  </InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="strAIuser">
+                                    <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="strAIuser" />
+                                  </InArgument>
+                                  <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+                                    <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="Config" />
+                                  </InArgument>
                                 </ui:InvokeWorkflowFile.Arguments>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
