@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>850.4,1059.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>850.4,990.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -81,7 +81,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Enter email" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[strAIuser+ &quot;[k(enter)]&quot;]">
               <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="56cd3f4b-e735-4f85-b263-3aab76b10d87" InformativeScreenshot="a0f964f37ded2cc299360c51679006fe" Selector="&lt;wnd app='firefox.exe' cls='MozillaWindowClass' title='Zoho Accounts - Mozilla Firefox' /&gt;&lt;uia role='group' /&gt;&lt;uia name='Email address or mobile number' role='edit' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="56cd3f4b-e735-4f85-b263-3aab76b10d87" InformativeScreenshot="0e0aadbfdd1e39ee9e0c3a7f92f40976" Selector="&lt;webctrl id='login_id' tag='INPUT' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -91,9 +91,9 @@
                 </ui:Target>
               </ui:TypeInto.Target>
             </ui:TypeInto>
-            <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Enter password" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[secAIpass]">
+            <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Private: Enter password" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[secAIpass]">
               <ui:TypeSecureText.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0d4e2ceb-236e-4e3f-a994-1da5b7bcdf80" InformativeScreenshot="04f88720bc70777cb33bcd3c3421a92c" Selector="&lt;webctrl id='password' tag='INPUT' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0d4e2ceb-236e-4e3f-a994-1da5b7bcdf80" InformativeScreenshot="bb58be509833362c40dea0f7953b4968" Selector="&lt;webctrl id='password' tag='INPUT' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -115,7 +115,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="14534cd3-7b3b-4dc2-952a-9720d089908e" InformativeScreenshot="280b2db2cf6b7afe8c7aac8e52ee9a9a" Selector="&lt;webctrl parentid='nextbtn' tag='SPAN' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="14534cd3-7b3b-4dc2-952a-9720d089908e" InformativeScreenshot="fd217a14f5b4a749bcf2812c4e8f6857" Selector="&lt;webctrl id='nextbtn' idx='1' /&gt;&#xA;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
