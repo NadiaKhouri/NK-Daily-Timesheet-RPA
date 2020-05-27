@@ -78,7 +78,7 @@
           </ui:CursorPosition>
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5036bd97-c086-4182-8f15-8fddfbd8ac29" InformativeScreenshot="03a9fe0902fa32a1fcb2dcbb5f52f1d3" Selector="&lt;html app='firefox.exe' title='Projects | Timesheet | Zoho Books' /&gt;&lt;webctrl tag='IMG' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5036bd97-c086-4182-8f15-8fddfbd8ac29" InformativeScreenshot="30ebf2dad4171913fee49dd5155b0e46" Selector="&lt;html app='firefox.exe' title='Projects | Timesheet | Zoho Books' /&gt;&#xD;&#xA;&lt;webctrl tag='IMG' src='https://contacts.zoho.com/*' /&gt;&#xD;&#xA;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -100,7 +100,7 @@
           </ui:CursorPosition>
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f3da3fc1-3076-47e0-bcb1-6b92c6e3feca" InformativeScreenshot="ce3aa804cf029c09b4b1fd7c1b89bfdd" Selector="&lt;html app='firefox.exe' title='Projects | Timesheet | Zoho Books' /&gt;&lt;webctrl aaname='Sign Out' parentid='*' tag='A' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f3da3fc1-3076-47e0-bcb1-6b92c6e3feca" InformativeScreenshot="ce3aa804cf029c09b4b1fd7c1b89bfdd" Selector="&lt;html app='firefox.exe' title='Projects | Timesheet | Zoho Books' /&gt;&#xD;&#xA;&lt;webctrl class='signout' /&gt;&#xD;&#xA;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
